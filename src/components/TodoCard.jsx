@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 export default function TodoCard(props) {
-    const { handleDeleteTodo,handleEditTodo, children, index} = props;
+    const { handleDeleteTodo,handleEditTodo, children, index} = props
     return (
         <li className='todoItem'>
                 {children}
